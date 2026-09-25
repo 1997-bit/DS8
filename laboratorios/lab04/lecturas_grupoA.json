@@ -1,0 +1,138 @@
+{
+    "nodo_emisor": "GrupoA-Nodo01",
+    "total_ciclos": 4,
+    "fecha_generacion": "2026-09-24 19:26:07",
+    "rangos_seguros": {
+        "temperatura": {
+            "min": 10.0,
+            "max": 35.0
+        },
+        "humedad": {
+            "min": 30.0,
+            "max": 70.0
+        },
+        "presion": {
+            "min": 980.0,
+            "max": 1050.0
+        }
+    },
+    "dispositivos": [
+        {
+            "id_dispositivo": "TEMP-01",
+            "tipo_sensor": "temperatura",
+            "unidad": "°C",
+            "rango_seguro": {
+                "min": 10.0,
+                "max": 35.0
+            },
+            "lecturas": [
+                {
+                    "ciclo": 1,
+                    "valor": 31.87,
+                    "estado": "normal",
+                    "es_critica": false,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 2,
+                    "valor": 43.15,
+                    "estado": "critica",
+                    "es_critica": true,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 3,
+                    "valor": 36.66,
+                    "estado": "critica",
+                    "es_critica": true,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 4,
+                    "valor": 6.33,
+                    "estado": "critica",
+                    "es_critica": true,
+                    "timestamp": "2026-09-24 19:26:07"
+                }
+            ]
+        },
+        {
+            "id_dispositivo": "HUM-01",
+            "tipo_sensor": "humedad",
+            "unidad": "%",
+            "rango_seguro": {
+                "min": 30.0,
+                "max": 70.0
+            },
+            "lecturas": [
+                {
+                    "ciclo": 1,
+                    "valor": 88.81,
+                    "estado": "critica",
+                    "es_critica": true,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 2,
+                    "valor": 45.51,
+                    "estado": "normal",
+                    "es_critica": false,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 3,
+                    "valor": 33.86,
+                    "estado": "normal",
+                    "es_critica": false,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 4,
+                    "valor": 19.28,
+                    "estado": "critica",
+                    "es_critica": true,
+                    "timestamp": "2026-09-24 19:26:07"
+                }
+            ]
+        },
+        {
+            "id_dispositivo": "PRES-01",
+            "tipo_sensor": "presion",
+            "unidad": "hPa",
+            "rango_seguro": {
+                "min": 980.0,
+                "max": 1050.0
+            },
+            "lecturas": [
+                {
+                    "ciclo": 1,
+                    "valor": 1047.73,
+                    "estado": "normal",
+                    "es_critica": false,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 2,
+                    "valor": 1029.04,
+                    "estado": "normal",
+                    "es_critica": false,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 3,
+                    "valor": 1034.59,
+                    "estado": "normal",
+                    "es_critica": false,
+                    "timestamp": "2026-09-24 19:26:07"
+                },
+                {
+                    "ciclo": 4,
+                    "valor": 1019.34,
+                    "estado": "normal",
+                    "es_critica": false,
+                    "timestamp": "2026-09-24 19:26:07"
+                }
+            ]
+        }
+    ]
+}
